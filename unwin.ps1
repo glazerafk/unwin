@@ -32,12 +32,12 @@ function Show-AnimatedText($text, $color="DarkRed", $delay=20) {
 foreach ($line in $logo.Split("`n")) { Show-AnimatedText $line "DarkRed" (Get-Random -Minimum 1 -Maximum 6) }
 
 $tips = @(
-    "💡 Tip: Have you tried turning it off and on again?",
-    "💡 Tip: Edge is like glitter. Once it’s there, it never leaves.",
-    "💡 Tip: Windows Update is the real boss fight.",
-    "💡 Tip: Task Manager knows your secrets.",
-    "💡 Tip: Cortana retired, but she’s still watching.",
-    "💡 Tip: The Recycle Bin is where dreams go to die."
+    "Tip: Have you tried turning it off and on again?",
+    "Tip: Edge is like glitter. Once it’s there, it never leaves.",
+    "Tip: Windows Update is the real boss fight.",
+    "Tip: Task Manager knows your secrets.",
+    "Tip: Cortana retired, but she’s still watching.",
+    "Tip: The Recycle Bin is where dreams go to die."
 )
 
 function Show-RandomTips($count=3) {
@@ -49,9 +49,9 @@ function Show-RandomTips($count=3) {
 
 Show-RandomTips
 
-Show-AnimatedText "`nchoose an option:" "Red" 20
+Show-AnimatedText "`nchoose an option:" "Yellow" 20
 Show-AnimatedText "1) remove all bloatware" "DarkRed" 20
-Show-AnimatedText "2) apply performance tweaks" "DarkRed" 20
+Show-AnimatedText "2) apply performance tweaks" "Red" 20
 Show-AnimatedText "3) do both" "DarkRed" 20
 Show-AnimatedText "4) exit" "Gray" 20
 $choice = Read-Host "enter choice (1-4)"
