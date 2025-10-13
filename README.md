@@ -5,3 +5,4 @@ windows unbloater ps2exe script.
 
 # IF YOU HAVE ANY PROBLEMS WITH IT POST IN ISSUES PLEASE!
 <img width="370" height="374" alt="image" src="https://github.com/user-attachments/assets/dff8804c-8f8a-4c69-a573-f05790ae4c81" />
+# this is how it looks like!
