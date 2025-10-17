@@ -8,4 +8,7 @@ windows unbloater ps2exe script.
 
 anyways. if you use or needs the windows store. do that after pressing the remove bloat thing.
 Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+(powershell as an admin please.)
+
+# i will add more things soon. and prob an ui. only in beta
 
